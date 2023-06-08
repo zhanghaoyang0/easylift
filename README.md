@@ -9,9 +9,9 @@ With `easylift`, you can use a (tab separated) file (e.g., gwas summary) as inpu
 # Requirements 
 - `Linux` 
 - `LiftOver`
-- `Python3` (3.9.6) with `pandas` (1.4.3), `argparse`, `os`, `sys`, `time`, `subprocess`  
+- `Python3` (>=3.8) with `pandas`, `argparse`, `os`, `sys`, `time`, `subprocess`  
   
-Versions I used are in bracket
+Versions I used are in bracket.
 
 # Getting Started
 Clone this repository via the commands:
