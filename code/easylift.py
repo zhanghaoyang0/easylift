@@ -38,7 +38,7 @@ file_map = {'hg19tohg38': './liftover/hg19ToHg38.over.chain.gz', 'hg38tohg19': '
 temp_id = hash(file_in)
 temp_id = str(temp_id+sys.maxsize) if temp_id<0 else str(temp_id)
 # read input
-if file_in.endswith('.gz'): df = pd.read_csv(file_in, compression='gzip', sep='\t')
+if file_in.endswith('.gz'): df = pd.read_csv(file_in, compression='gzip', sep='\t', low_memory=False)
 else: df = pd.read_csv(file_in, sep='\t')
 
 df.replace(23, 'X', inplace=True) # chr23 to chrX

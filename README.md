@@ -24,7 +24,7 @@ Once the above has completed, you can try to lift to new pos field by specifying
 `--lift` hg19tohg38 or hg38tohg19, default is hg19tohg38   
 `--chr_col` field name of CHR, default is CHR   
 `--pos_col` field name of POS, default is POS   
-`--file_in` tab[\t] separated input file, gzip (file_in end with '.gz') input can also be recongized  
+`--file_in` tab[\t] separated input file, gzip (file_in end with '.gz') input can also be recognized  
 `--file_out` output file  
 
 Two examples (hg19tohg38 and hg38tohg19):
@@ -43,7 +43,7 @@ python ./code/easylift.py \
 --file_out ./example/df_hg38_lifted_to_hg19.txt
 ```
 
-gzip (file_in end with '.gz') input can be recongized: 
+gzip (file_in end with '.gz') input can be recognized: 
 ```
 python ./code/easylift.py \
 --lift hg19tohg38 \
